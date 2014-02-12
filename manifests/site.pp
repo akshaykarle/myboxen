@@ -65,6 +65,31 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # dev tools installation
+  include iterm2::stable
+  include postgresql
+  include vagrant
+  include evernote
+  include skype
+  include virtualbox
+  include quicksilver
+  include java
+  include rubymine
+  include onepassword
+  include dropbox
+  include heroku
+  include chrome
+  include ccleaner
+  include vlc
+  include utorrent
+  include shiftit
+  include spotify
+  include python
+  include vim
+  include ctags
+  include caffeine
+  include gitx::dev
+
   # common, useful packages
   package {
     [
